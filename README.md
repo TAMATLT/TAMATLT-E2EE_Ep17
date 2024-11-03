@@ -25,7 +25,7 @@ When you run the script the output will show you several folders:
 
 ![Alt text](Img/CheckExample.png?raw=true "Example for Check.lua")
 
-The one labeled OpenOS can be opened on your sistem in:
+The one labeled OpenOS is the one you are looking for and it can be opened on your sistem in:
 ../instances/%instance name%/.mincraft/saves/opencomputers/
 
 
