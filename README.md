@@ -34,7 +34,9 @@ The one labeled OpenOS is the one you are looking for and it can be opened on yo
 
 ## runScript.lua
 
-When I am writing the code for my OpenCOmputers setup I rely heavily on LLMs. And when my script fails I need to copy the error message out of Minecraft to LLM for debugging.
+When I am writing the code for my OpenComputers setups I rely heavily on LLMs. And when my scripts fail I need to copy the error message out of Minecraft and paste it to LLM for debugging.
+
+As far as I am aware by default you have to simply retype the code into the LLM, and this is not convinient.
 
 This helpful script **runScript.lua** can be used to circumvent that. If the script that errors is called *script.lua* you should run:
 
