@@ -54,11 +54,12 @@ If your script has any arguments you can run the whole thing like this:
 Simple print3d command provided by OPPM works well for printing a single item. For everything else you got **customPrint.lua**.
 
 Prerequisites: 
--Install OPPM package print3d from OPPM disk
--Connect the printer to the computer
--Have a transposer connected to the same computer
--Have an output inventory connected to the transposer
--Transposer **must** touch only 2 inventories: the printer and the output inventory
+
+- Install OPPM package print3d from OPPM disk
+- Connect the printer to the computer
+- Have a transposer connected to the same computer
+- Have an output inventory connected to the transposer
+- Transposer **must** touch only 2 inventories: the printer and the output inventory
 
 Once done, create a text file **models.txt**. It has to be in the same directory as **customPrint.lua**. 
 
