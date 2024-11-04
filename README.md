@@ -14,17 +14,17 @@ If you do not know much about lua programming here is what you do:
 - Press 'Ctrl + S' to save file inside OpenOS.
 - Press 'Ctrl + W' to close the editor and back to command line.
 - Run the script by typing `<filename>` without .lua part if your script name was <filenale.lua>. The you might need to type any arguments for the script like this `<filename> arg1 arg2`
-- Alternative route is to find out where your game files are stored in your system and manipulate these files outside of minecraft (see **check.lua** section below)
+- Alternative route is to find out where your game files are stored in your system and manipulate these files outside of minecraft (see **checkFilesystemLocation.lua** section below)
 
 # Scripts in this repository
 
-## Check.lua
+## checkFilesystemLocation.lua
 
 Lets say you have made your 20th computer with OpenComputers mod, installed OpenOS, created a file there and now want to open this file with your editor outside of Minecraft.
 
 You will have to sift through many folders until you find the ine you are looking for.
 
-This helpful script **check.lua** will tell you which folder on your actual machine stores contents of OpenOS hard drive in Game.
+This helpful script **checkFilesystemLocation.lua** will tell you which folder on your actual machine stores contents of OpenOS hard drive in Game.
 
 When you run the script the output will show you several folders:
 
