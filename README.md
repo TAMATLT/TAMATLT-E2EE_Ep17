@@ -6,14 +6,15 @@ This repository contains examples I have used in Ep17 of my E2E:E Series
 
 If you do not know much about lua programming here is what you do:
 
-- In any computer in opencomputers go into OpenOS command line and type `edit <filenale.lua>`, where **<filename.lua>** is your script. This opens script editor.
+- In any computer in opencomputers go into OpenOS and navigate to the #home directory
+- In the command line type `edit <filenale.lua>`, where **<filename.lua>** is your script. This opens script editor.
 - Minimize minecraft and switch to web brouser.
 - Open the *.lua script you want in this repository and copy its contents.
 - Go back to minecraft window, back to the editor and press middle mouse button, which will insert contents of .lua script into the editor
 - Press 'Ctrl + S' to save file inside OpenOS.
 - Press 'Ctrl + W' to close the editor and back to command line.
 - Run the script by typing `<filename>` without .lua part if your script name was <filenale.lua>. The you might need to type any arguments for the script like this `<filename> arg1 arg2`
-- Alternative route is to find out where you l
+- Alternative route is to find out where your game files are stored in your system and manipulate these files outside of minecraft (see **check.lua** section below)
 
 # Scripts in this repository
 
@@ -47,6 +48,37 @@ If any errors pop up in your **script.lua** they will be saved to a text file `e
 If your script has any arguments you can run the whole thing like this:
 
 `runScript.lua script.lua arg1 arg2 arg3`
+
+## customPrint.lua
+
+Simple print3d command provided by OPPM works well for printing a single item. For everything else you got **customPrint.lua**.
+
+Prerequisites: 
+-Install OPPM package print3d from OPPM disk
+-Connect the printer to the computer
+-Have a transposer connected to the same computer
+-Have an output inventory connected to the transposer
+-Transposer **must** touch only 2 inventories: the printer and the output inventory
+
+Once done, create a text file **models.txt**. It has to be in the same directory as **customPrint.lua**. 
+
+Inside this file make as many entries as you want for each model. Each entry is a separate line and need to look exactly like this: `%Description%:modelFile.3dm`.
+
+For example:
+  `Double-Layer Capacitor:doubleLayerCapacitor.3dm`
+
+Each model file (in the example above **doubleLayerCapacitor.3dm**) for every entry needs to be in the same folder as **customPrint.lua**.
+
+Once all of the above is complete run `customPrint`.
+
+The program will show a list of avialable models to print (from **models.txt**) and will expect an index of the item you like to print.
+
+Next the program will ask how many items need printing. It again expects a number.
+
+The script was not properly vetted for all of the cases where something goes wrong: printer runs out of materials, inventories are full, you type srong character etc.
+
+Simply be a bit careful and you will be fine.
+
 
 
 
