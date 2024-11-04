@@ -28,7 +28,7 @@ This helpful script **check.lua** will tell you which folder on your actual mach
 
 When you run the script the output will show you several folders:
 
-![Alt text](Img/CheckExample.png?raw=true "Example for Check.lua")
+![checkExample](Img/CheckExample.png?raw=true "Example for Check.lua")
 
 The one labeled OpenOS is the one you are looking for and it can be opened on your sistem in:
 ../instances/%instance name%/.mincraft/saves/opencomputers/
@@ -74,7 +74,9 @@ Once all of the above is complete run `customPrint`.
 
 The program will show a list of avialable models to print (from **models.txt**) and will expect an index of the item you like to print.
 
-Next the program will ask how many items need printing. It again expects a number.
+Next the program will ask how many items need printing. It again expects a number. For example:
+
+![customPrintExample](Img/customPrintExample.png?raw=true "Example for Check.lua")
 
 The script was not properly vetted for all of the cases where something goes wrong: printer runs out of materials, inventories are full, you type srong character etc.
 
