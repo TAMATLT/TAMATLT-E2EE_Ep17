@@ -8,6 +8,9 @@ local transposer = component.transposer
 
 local modelsFile = "models.txt"  -- Text file mapping model names to file paths
 
+-- example entry for models.txt: "Double-Layer Capacitor:doubleLayerCapacitor.3dm"
+
+
 -- Function to load models from "models.txt"
 function loadModels(filename)
     local models = {}
