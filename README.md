@@ -1,4 +1,4 @@
-# TAMAT LT E2EE Ep17 Robots Repository
+# TAMAT LT E2EE Ep17 Repository
 This repository contains examples I have used in Ep17 of my E2E:E Series
 
 **If you are an expert in OpenComputers and see that some of these scripts mirror default functions or could be done better**
