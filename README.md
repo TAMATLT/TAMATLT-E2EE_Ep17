@@ -24,7 +24,7 @@ All of the scripts from this repository should be copied to home directory of yo
 
 Lets say you have made your 20th computer with OpenComputers mod, installed OpenOS, created a file there and now want to open this file with your editor outside of Minecraft.
 
-You will have to sift through many folders until you find the ine you are looking for.
+You will have to sift through many folders until you find the one you are looking for.
 
 This helpful script **checkFilesystemLocation.lua** will tell you which folder on your actual machine stores contents of OpenOS hard drive in Game.
 
