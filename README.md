@@ -45,7 +45,7 @@ This helpful script **runScript.lua** can be used to circumvent that. If the scr
 
 `runScript.lua script.lua`
 
-If any errors pop up in your **script.lua** they will be saved to a text file `error_log.txt` instead of being shown on the screen.
+If any errors pop up in your **script.lua** they will be saved to a text file `error_log.txt` in your home directory of OpenOS instead of being shown on the screen.
 
 If your script has any arguments you can run the whole thing like this:
 
