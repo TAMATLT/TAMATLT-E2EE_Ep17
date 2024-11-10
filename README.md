@@ -18,6 +18,8 @@ If you do not know much about lua programming here is what you do:
 
 # Scripts in this repository
 
+All of the scripts from this repository should be copied to home directory of your OpenOS in Minecraft
+
 ## checkFilesystemLocation.lua
 
 Lets say you have made your 20th computer with OpenComputers mod, installed OpenOS, created a file there and now want to open this file with your editor outside of Minecraft.
