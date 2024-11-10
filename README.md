@@ -26,7 +26,7 @@ Lets say you have made your 20th computer with OpenComputers mod, installed Open
 
 You will have to sift through many folders until you find the one you are looking for.
 
-This helpful script **checkFilesystemLocation.lua** will tell you which folder on your actual machine stores contents of OpenOS hard drive in Game.
+This helpful script **checkFilesystemLocation.lua** will tell you which folder on your system outside of Minecraft stores contents of OpenOS hard drive in Game.
 
 When you run the script the output will show you several folders:
 
