@@ -80,7 +80,7 @@ Next the program will ask how many items need printing. It again expects a numbe
 
 ![customPrintExample](Img/customPrintExample.png?raw=true "Example for Check.lua")
 
-The script was not properly vetted for all of the cases where something goes wrong: printer runs out of materials, inventories are full, you type srong character etc.
+The script was not properly vetted for all of the cases where something goes wrong: printer runs out of materials, inventories are full, you type wrong character etc.
 
 Simply be a bit careful and you will be fine.
 
